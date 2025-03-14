@@ -462,6 +462,7 @@ jobs:
             --deployment-config-name CodeDeployDefault.AllAtOnce \
             --deployment-group-name ${{ env.CODE_DEPLOY_DEPLOYMENT_GROUP_NAME }} \
             --s3-location bucket=$S3_BUCKET_NAME,key=$GITHUB_SHA.zip,bundleType=zip</code></pre>
+            
 <br />
 
 <h1 id="각종-에러들">각종 에러들</h1>
